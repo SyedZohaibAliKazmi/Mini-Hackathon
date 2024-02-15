@@ -147,3 +147,30 @@ button {
   margin-top: 40px;
   line-height: 40px;
 }
+h4 a{
+    display: flex;
+    justify-content: center;
+    text-decoration:  none;
+    color: #e6edf3;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.third{
+    display: flex;
+    height: 520px;
+    padding: 64px 24px 24px;
+}
+.third h1{
+    display: flex;
+    font-family: "poppins";
+    font-weight: 800;
+    font-size: 64px;
+    margin: 54px 0px 48px;
+}
+.third h3{
+    display:flex;
+    font-family: "poppins";
+    font-size: 24px;
+    font-weight: 700;
+    margin: 24px 0px 4px;
+}
