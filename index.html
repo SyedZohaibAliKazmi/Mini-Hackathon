@@ -1,44 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/391ba8f023.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./style.css" />
     <title>GitHub CLI</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="logo-cli">
+      <nav>
+        <div class="logo-cli">
+          <div class="logo"></div>
 
-            <div class="logo">
-            </div>
-
-            <a href="#">CLI</a>
-              
+          <a href="#">CLI</a>
         </div>
-        
+
         <div class="right-side">
-            <ul>
-                <li><a href="#">Manual</a></li>
-                <li><a href="#">Release notes</a></li>
-            </ul>
+          <ul>
+            <li><a href="#">Manual</a></li>
+            <li><a href="#">Release notes</a></li>
+          </ul>
         </div>
-        </nav>
+      </nav>
     </header>
-     <!-- first heading kay elements  -->
+    <!-- first heading kay elements  -->
     <div class="first">
-       <action> <h1>Take GitHub to the <br> command line</h1>
+      <action>
+        <h1>
+          Take GitHub to the <br />
+          command line
+        </h1>
 
-        <p>GitHub CLI brings GitHub to your terminal. <br>Free and open source.</p>
+        <p>
+          GitHub CLI brings GitHub to your terminal. <br />Free and open source.
+        </p>
         <button type="submit" class="button">Download for Window</button>
         <h4>View installation instructions →</h4>
-    </action>
-</div>
+      </action>
+    </div>
     <!-- second hero section kay elements  -->
     <div class="second">
-        <action><h2>$ gh pr che</h2>
-        <p>View your pull requests’ checks.</p></action>
+      <action
+        ><h2>$ gh pr che</h2>
+        <p>View your pull requests’ checks.</p>
+        <div class="container">
+          <!-- <img src="./images/download-removebg-preview (30).png" alt="grip" width="80px" height="70px"> -->
+          <i class="fa-solid fa-grip"></i>
+
+          <p>
+            $ gh pr che <br />
+            All checks were successful <br />
+            1 failing, 3 successful, and 1 pending checks <br />
+
+            - CodeQL 3m43s https://github.com/cli/cli/runs/123 <br />
+            ✓ build (macos-latest) 4m18s https://github.com/cli/cli/runs/123
+            <br />
+            ✓ build (ubuntu-latest) 1m23s https://github.com/cli/cli/runs/123
+            <br />
+            ✓ build (windows-latest) 4m43s https://github.com/cli/cli/runs/123
+            <br />
+            × lint 47s https://github.com/cli/cli/runs/123 <br />
+          </p>
+        </div>
+      </action>
     </div>
-</body>
+  </body>
 </html>
