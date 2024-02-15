@@ -1,1 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+ /* poppins-bold  */
+
+
+*{
+    margin:0%;
+    font-family:  "Poppins";
+    
+}
+.body{
+    display: flex;
+}
+.navbar{
+    height: 68px;
+    background-color: #0D1117;
+    display: flex;
+    padding: 0px 40px;
+    align-items: center;
+    
+}
+.logo{
+
+    background-image: url(./images/download-removebg-preview\ \(30\).png);
+    background-size: cover;
+    display: flex;
+    align-items:center;
+    margin:0px 5px 0px 0px;
+    width: 33px;
+    height: 33px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #E6EDF3;
+    font-family: "poppins";
+    font-size: 16px;
+}
+.navbar ul {
+    list-style: none;
+    /* text-align: right; */
+    display: flex;
+    justify-content: end !important;
+    
+
+}
+.navbar li {
+    display: inline-block;
+    margin: 5px;
+}
