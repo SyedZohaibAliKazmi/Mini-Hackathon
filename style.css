@@ -605,13 +605,42 @@ footer {
 /* Responsive design according to mobile phone width start 480px  */
 @media screen and (max-width:480px) {
   
-  
+  .navbar{
+    height: 68px;
+    background-color:  #0d1117;
+    padding: 0px 28px;
+    /* display: flex; */
+  }
+  .nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    padding: 24px;
+  }
+  .nav-main ul li {
+    color:#e6edf3;
+    font-family: "poppins";
+    font-size: 12px;
+    justify-content: space-around;
+    list-style: none;
+    display: inline;
+  }
+  .nav-main a {
+    text-decoration: none;
+    color: #e6edf3;
+  }
+  .nav-main ul li i {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+  }
   .first {
     display: flex;
     justify-content: center;
     /* width: 592px; */
     background-color: #0d1117;
     height: auto;
+    padding: 0px 15px;
   }
   .first h1 {
     display: flex;
@@ -810,6 +839,10 @@ footer {
   height: auto;
   margin: 0px 0px 32px;
   padding: 30px 0px;
+}
+.foot-one {
+  height: 313px;
+  padding: 0px 20px;
 }
 .foot-logo {
   width: auto;
